@@ -1,0 +1,66 @@
+﻿<%@ Master Language="VB" CodeFile="Admin.master.vb" Inherits="Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    
+    <link rel="stylesheet" href="Styles/Site.css" type="text/css" media="screen"/>
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body bgcolor="#9999ff">
+
+<body bgcolor="#9999ff">
+
+<center><img src="Images/banner.gif" /></center>
+    
+    
+    
+
+    <form id="form2" runat="server">
+
+    <div id="logged">
+
+    <%--Logged In as <font color="blue"><%= Session["UserName"] %></font>--%>
+    
+    </div>
+
+    <div id="navCon">
+
+    <div id="nav">
+
+    <ul>
+    <li><a href="StudentDetails.aspx">Student Details</a></li>
+    <li><a href="StaffDetails.aspx">Staff Details</a></li>
+    <li><a href="StudentDoubts.aspx">Student Doubts</a></li>
+    <li><a href="StaffArticles.aspx">Staff Articles</a></li>
+    <li><a href="Logout.aspx">Logout</a></li>
+    
+    
+    </ul>
+
+    </div>
+
+    </div>
+
+    <div>    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">     
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    
+</body>
+
+
+
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+</body>
+</html>

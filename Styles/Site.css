@@ -1,0 +1,292 @@
+﻿body {
+}
+
+h2
+{
+    color: Maroon;
+    text-align: center;
+}
+
+#tablehead
+{
+	color: #9999ff;
+	font-weight:bold;
+	font-size: x-large;
+}
+
+#admin
+{
+	width: 900px;
+	height: 100px;
+}	
+
+.adminbutton
+{
+	background-color: #6600ff;
+	border: Solid 3px #000;
+	border-radius: 0px 0px 6px 6px;
+	color: #9999ff;
+	width: 150px;
+}
+
+.adminbutton:hover
+{	
+	width: 150px;
+	/*background-color: #9999ff;*/
+	color: #9999ff;
+	border: Solid 3px #000;
+	border-radius: 0px 0px 6px 6px;
+	height: 30px;
+	
+	box-shadow: 3px 3px 6px #000;
+	line-height: 30px;
+	-moz-transition: ease 1s;
+	-webkit-transition: ease 1s;
+}
+
+h1
+{
+	color: Highlight;
+	font-size: xx-large;
+}
+
+#mytable
+{
+	box-shadow: -5px -5px 7px #000;
+	border: 3px solid #000;
+	margin-top: 1px;
+}
+
+#mychpwd
+{
+	box-shadow: 5px 5px 7px #000;
+	border: 3px #000;
+	border-style: solid;
+
+}
+       
+
+#logged
+{
+    width: 896px;
+    margin: 0px auto;
+    color: #6600ff;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: 2px solid;
+    background-color: #FFF;
+    text-align: right;
+}
+
+
+#navig
+{
+    width: 900px;
+    margin: 1px auto;
+    background-color: #6600ff;
+}
+
+#navigation
+{
+    background-color: #9999ff;
+    width: 850px;
+    height: 60px;
+    position: relative;
+    color: White;
+    margin: 1px auto;
+}
+
+#nav ul
+{
+    list-style-type: none;
+}
+
+#nav ul li
+{
+    font-size: large;
+    float: left;
+    position: relative;    
+        
+}
+
+#nav ul li a
+{
+    background-color: White;
+    border: 2px Solid #6600ff;
+    height: 60px;
+    width: 150px;
+    line-height: 60px;
+    border-radius: 15px 15px 0 0;
+    
+    display: block;
+    
+    
+    
+    text-align: center;
+    text-decoration: none;
+}
+
+#nav ul li a:hover
+{
+
+    background-color: #6600ff;
+ 
+    box-shadow: -6px -6px 9px #000;
+    width: 153px;
+    
+    border-style: dashed;   
+
+     
+}
+
+
+#main
+    {
+        width: 900px;        
+        margin: 0px auto;
+        color: Black;
+        font-weight: bold;        
+    }
+    
+    #left
+    {
+        background-color: #66ccff;
+        border: 2px Solid #6600ff;
+        float: left;
+        width: 347px;
+        line-height: 50px;      
+        height: 380px;        
+        padding-left: 100px;  
+        padding-top: 100px;
+        border-radius: 15px;
+        box-shadow: -10px 10px 5px #000;
+    }
+    
+       
+     #staffleft
+    {
+        background-color: #66ccff;
+        border: 2px Solid #6600ff;
+        float: left;
+        width: 347px;
+        line-height: 50px;      
+        height: 480px;
+        padding-left: 100px;  
+        padding-top: 100px;
+        border-radius: 15px;        
+        box-shadow: -10px 10px 5px #000;
+    }
+    
+    #right
+    {
+        background-color: #66ccff;
+        border: 2px Solid #6600ff;
+        float: right;
+        width: 393px;
+        line-height: 50px;      
+        height: 460px;
+        padding-left: 50px;  
+        padding-top: 20px; 
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px #000;
+    }
+    
+    #staffright
+    {
+        background-color: #66ccff;
+        border: 2px #6600ff;
+        border-style: solid;
+        float: right;
+        width: 393px;
+        line-height: 50px;      
+        height: 580px;
+        padding-left: 50px;  
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px #000;
+        
+    }
+     
+     #center
+    {
+        background-color: #fff;
+        border: 2px Solid #6600ff;
+        float: none;
+        width: 900px;
+        line-height: 50px;      
+        height: 460px;        
+        padding-top: 20px; 
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px #000;      
+        background-image: url(../Images/AdminSmall.png);
+        background-repeat: no-repeat;        
+        background-position: top right;
+    }
+        
+    input[type="text"]:focus,input[type="password"]:focus, textarea:focus
+    {
+        background-color: #0066ff;
+    }
+    
+    
+    #nav ul li a:hover
+{
+   color: White;
+    font-weight: bold;
+    
+    border-color: White; 
+}
+    
+    
+    
+    .textboxes:hover
+    {
+    	/*border: 3px Solid #000;*/
+    	box-shadow: 2px 2px 4px #000;
+    } 
+    
+    select:hover
+    {
+    	box-shadow: 2px 2px 4px #000;
+    }    
+    select:focus
+    {
+    	background-color: #0066ff;
+    }	
+    
+    .textboxes
+    {
+        border: 1px Solid #000;
+        font-size: large;
+    }
+    .mybutton
+    {
+        width: 150px;
+        border: 2px Double #000;
+        font-size: large;
+        background-color: #0066ff;
+        color: Black;
+        font-weight: bold;
+    }
+    .mybutton:hover
+    {
+        background-color: Black;
+        color: #0066ff;
+        border-radius: 15px;
+    }
+    
+    .mybutton1
+    {
+        width: 200px;
+        border: 2px Double #000;
+        font-size: large;
+        background-color: #0066ff;
+        color: Black;
+        font-weight: bold;
+    }
+    .mybutton1:hover
+    {
+        background-color: Black;
+        color: #0066ff;
+        border-radius: 15px;
+    }
+    
